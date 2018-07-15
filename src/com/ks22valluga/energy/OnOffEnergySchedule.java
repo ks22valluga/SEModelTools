@@ -5,7 +5,7 @@ import java.util.GregorianCalendar;
 
 public class OnOffEnergySchedule extends AbstractEnergyProfile  {
 	private boolean[] weeklyShedule=new boolean[7*24*60];
-	//starts Monday 0hr 0min [0] end Sun pm 23hrs 59mins [(7*24*60)-1]
+	//starts Sunday 0hr 0min [0] end Mon pm 23hrs 59mins [(7*24*60)-1]
 	
 	public void setOnPeriods(GregorianCalendar start, GregorianCalendar end){
 		//Start - end  must be start > Mon , End > start, end <  
