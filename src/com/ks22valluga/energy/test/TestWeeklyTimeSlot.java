@@ -12,6 +12,8 @@ public class TestWeeklyTimeSlot {
 
 	@Test
 	public void test() {
+	    
+	    //TODO: do the right testing 
 		int dayOfWeekStart = 0;
 		int hrOfDayStart = 1;
 		int minOfHrStart = 0;
